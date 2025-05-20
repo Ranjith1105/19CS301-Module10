@@ -2,7 +2,7 @@
 Reg No: 212223020021
 Name: Ranjith P
 
-###EX: 10.a  STACK
+### EX: 10.1 STACK - Push and Pop operation
 ### Aim: 
 To Write a python program to get the integer values from the user and push only the odd number into the stack and later pop the last 2 elements
 ### Algorithm:
@@ -79,7 +79,7 @@ Thus, the given program is implemented and executed successfully .
  
 
 
-EX: 10.3 QUEUE
+### EX: 10.3 QUEUE
 ### Aim:
 To Write a python program to implement the stack using deque method for rotating the stack.
 ### Algorithm:
@@ -150,7 +150,7 @@ for i in range(4):
 ### Result: 
 Thus, the given program is implemented and executed successfully .
 
- ### SEB: 
+ ### SEB: Deque
  ### Aim: 
 To develop a Python program that adds only the even unique numbers from a given list using the appendleft() method from a deque.
 
@@ -164,7 +164,9 @@ STEP 3: Initialize an empty deque for storing the even unique numbers.
 STEP 4:Create a set to keep track of unique even numbers.
 
 STEP 5 :Loop through the given list of numbers:
+
         For each number, check if it is even and not already in the set of even numbers.
+        
         If both conditions are true, add it to the deque using the appendleft() method.
 
 STEP 6: Print the contents of the deque.
